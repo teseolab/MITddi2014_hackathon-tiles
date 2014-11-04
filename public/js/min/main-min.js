@@ -1,0 +1,1 @@
+$("button").click(function(){if("red"==$(this).attr("id"))var t="http://marit.hopto.org/R";if("green"==$(this).attr("id"))var t="http://marit.hopto.org/G";if("blue"==$(this).attr("id"))var t="http://marit.hopto.org/B";var o=$.get(t,function(){console.log("success")}).fail(function(){console.log("error")}).always(function(){console.log("finished")})});
